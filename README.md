@@ -59,13 +59,13 @@ java
 Copy code
 import com.example.security.Encrypt;
 
-## public class User {
+ public class User {
 
-##    @Encrypt
-##    private String sensitiveData;
+    @Encrypt
+    private String sensitiveData;
 
     // getters and setters
-## }
+}
 
 When data is passed to the annotated field or method, the AOP aspect will automatically encrypt the data before proceeding.
 
