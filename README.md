@@ -35,11 +35,11 @@ cd custom-encryption-annotation
 ### 2. Build the project
 If you're using Maven, you can build the project by running:
 
-### For yml: 
-## mvn clean install
+## For yml: 
+ mvn clean install
 
-### For Gradle:
-## gradle build
+## For Gradle:
+ gradle build
 
 ### 3. Run the project
 once the project is built, you can run the Spring Boot application:
