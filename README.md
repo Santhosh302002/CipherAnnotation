@@ -44,10 +44,10 @@ If you're using Maven, you can build the project by running:
 ### 3. Run the project
 once the project is built, you can run the Spring Boot application:
 
-## mvn spring-boot:run
+ mvn spring-boot:run
 
-### Or with Gradle:
-## gradle bootRun
+## Or with Gradle:
+ gradle bootRun
 
 Usage
 Applying the @Encrypt Annotation
