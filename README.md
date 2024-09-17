@@ -23,7 +23,7 @@ This project demonstrates how to implement a custom `@EncryptDecrypt` annotation
 - **Java 17+**
 - **Spring Boot 2.5+**
 - Maven or Gradle
-- Basic understanding of Spring and AOP
+
 
 ## Installation
 
