@@ -67,7 +67,7 @@ import com.example.security.Encrypt;
     // getters and setters
 }
 
-When data is passed to the annotated field or method, the AOP aspect will automatically encrypt the data before proceeding.
+When data is passed to the annotated field or method, will automatically encrypt the data before proceeding.
 
 Example of Encryption
 You can call methods where encryption is required like this:
