@@ -1,0 +1,27 @@
+server:
+  port: 9028
+  servlet:
+    context-path: /
+
+app:
+  server-instance-code: FBL # IMPORTANT: max length : 3 characters
+  environment: local
+  application:
+    name: CipherAnnotation
+    base-url: http://localhost:9028
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  h2:
+    console.enabled: true
+
+
